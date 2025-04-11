@@ -8,6 +8,7 @@ BoxManager is a lightweight Python library for orchestrating systemd services an
 - ✅ Automatically restore system state after execution
 - ✅ YAML or JSON config support
 - ✅ Decorator or imperative-style usage
+- ✅ CLI for direct service and process control
 
 ---
 
@@ -63,8 +64,21 @@ manager.load_config_and_orchestrate("config.yaml", func=my_task)
 
 ---
 
-## CLI (Coming Soon)
-We plan to add CLI support for one-off orchestration tasks. Stay tuned!
+## CLI
+Use the command line interface to quickly control services:
+
+```bash
+box-manager start nginx
+box-manager stop nginx
+box-manager status nginx
+box-manager restart nginx
+```
+
+### Available Commands
+- `start <service>`: Start a systemd service
+- `stop <service>`: Stop a systemd service
+- `status <service>`: Check if a service is active
+- `restart <service>`: Restart a systemd service
 
 ---
 
