@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.swp
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual Environment
+venv/
+.env/
+
+# Testing
+*.coveragerc
+.coverage
+nosetests.xml
+coverage.xml
+*.hypothesis/
+pytest_cache/
+
+# Configuration
+*.log
+*.bak
+*.swp
+
+# Secrets
+*.env

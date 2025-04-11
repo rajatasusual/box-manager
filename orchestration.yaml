@@ -1,0 +1,10 @@
+# orchestration.yaml
+orchestration:
+  stop_services:
+    - http-server.service
+  start_services:
+    - redis-stack-server.service
+  deprioritize:
+    - embed-server.service
+  prioritize:
+    - rerank-server.service
