@@ -1,4 +1,6 @@
 # BoxManager
+[![Python Package](https://github.com/rajatasusual/box-manager/actions/workflows/python-publish.yml/badge.svg)](https://github.com/rajatasusual/box-manager/actions/workflows/python-publish.yml)
+[![PyPI version](https://badge.fury.io/py/box-manager.svg)](https://pypi.org/project/box-manager/)
 
 BoxManager is a lightweight Python library for orchestrating systemd services and adjusting process priorities on Debian-based systems. Perfect for embedded systems, robotics, or any scenario where performance context switching is essential.
 
