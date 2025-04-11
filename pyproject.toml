@@ -9,12 +9,16 @@ license = "MIT"
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
-    "PyYAML>=6.0"
+    "PyYAML>=6.0",
+    "click>=8.0"
 ]
 
 [project.urls]
 Homepage = "https://github.com/rajatasusual/box-manager"
 Repository = "https://github.com/rajatasusual/box-manager"
+
+[project.scripts]
+box-manager = "box_manager.cli:cli"
 
 [tool.setuptools.packages.find]
 where = ["src"]
@@ -31,3 +35,4 @@ dev = [
     "pytest>=7.0",
     "pytest-mock",
 ]
+
