@@ -1,6 +1,6 @@
 [project]
 name = "box-manager"
-version = "0.1.0"
+version = "0.1.1"
 description = "Orchestration tool for managing systemd services and process priorities in Debian systems."
 authors = [
     { name = "rajatasusual", email = "rajatasusual@github.com" }
